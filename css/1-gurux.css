@@ -79,17 +79,21 @@ th, td {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .container {
-        padding: 20px;
+     
+        padding: 15px;
     }
 
     table {
         font-size: 14px;
     }
-
+   th, td{
+    padding: 8px;
+   }
     .btn_1 {
-        width: 100%;
+        width: auto;
+       
         text-align: center;
     }
 }
